@@ -1,8 +1,10 @@
 /* Hashtag is used to notate id's */
-#abc123 {
-font-size:78px;
+h1 {
+font-size:24px;
+text-align: Center;
 }
 /* period is used to noate classes */
-.xyz {
-
+.xyz{
+    font-size:78px;
+    text-align: Center;
 }
