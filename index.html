@@ -1,19 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Baker Data Analyst</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Victor Baker</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+   
 </head>
 
 <body>
-    <h1>Victor Baker</h1>
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">About</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Skills</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Projects</a></li>
+        <li data-menuanchor="4thPage"><a href="#4thPage">Contact</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <h1>Landing Page</h1>
+            <br>
+            <p> Brief personal statement, 1-2 sentences</p>
+        </div>
+        <div class="section" id="section1">
+            <h1>Victor Baker</h1>
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Skills</h1>
+            </div>
+        </div>
+        <div class="section active" id="section3">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <h1>FER-webcam</h1>
+                    <!-- <iframe data-src="auto-height.html"></iframe> -->
+                </div>
+            </div>
+            <div class="slide active" id="slide2">
+                <div class="intro">
+                    <h1>Citibike Bicycle Longevity</h1>
+                    <p>
+                        We are using the class `active` on this section and in this particular horizontal slide. This way it will appear on the viewport on page load, instead of the 1st section 1st slide.
+                    </p>
+                    <p>You can apply the same logic to horizontal slides</p>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <h1>NASA Kepler</h1>
+            </div>
+    
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </div>
+
+<h1>Victor Baker</h1>
     <h1>San Antonio, TX</h1>
     <h3><a href = "http://github.com/bakerv">Github</a></h3>
     <h3><a href = "http://github.com/bakerv">LinkedIn</a></h3>
     <ul>Projects</ul>
         <li><a href = "https://github.com/bakerv/COVID19">San Antonio COVID-19 Zip Code Analysis </a></li>
+            
+<script type="text/javascript" src="scripts/fullpage.min.js"></script>
+<script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#ffffff','#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['landingintro','firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+        menu: '#menu',
+        lazyLoad: true
+    });
+</script>
+
 </body>
 </html>
