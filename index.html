@@ -9,15 +9,34 @@
     
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-   
+    <style>
+        blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{
+    padding:0;
+    margin:0}
+        a{text-decoration:none}
+        ol,ul{
+    list-style:none;
+    margin:0;
+    padding:0}
+        #app,#fullpage,.section,body,html{height:100%}
+    </style>
 </head>
-
+<div id="app">
 <body>
+    <a id="logo" href ="index.html#landing" alt="homepage">Victor Baker</a>
     <ul id="menu">
-        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">About</a></li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">Skills</a></li>
-        <li data-menuanchor="3rdPage"><a href="#3rdPage">Projects</a></li>
-        <li data-menuanchor="4thPage"><a href="#4thPage">Contact</a></li>
+        <li data-menuanchor="firstPage" class="active">
+            <a href="#firstPage">About</a>
+        </li>
+        <li data-menuanchor="secondPage">
+            <a href="#secondPage">Skills</a>
+        </li>
+        <li data-menuanchor="3rdPage">
+            <a href="#3rdPage">Projects</a>
+        </li>
+        <li data-menuanchor="4thPage">
+            <a href="#4thPage">Contact</a>
+        </li>
     </ul>
 
     <div id="fullpage">
@@ -55,13 +74,13 @@
             </div>
     
         </div>
-        <div class="section" id="section3">
+        <div class="section" id="section4">
             <div class="intro">
                 <h1>Contact</h1>
             </div>
         </div>
     </div>
-
+</div>
 <h1>Victor Baker</h1>
     <h1>San Antonio, TX</h1>
     <h3><a href = "http://github.com/bakerv">Github</a></h3>
@@ -72,8 +91,9 @@
 <script type="text/javascript" src="scripts/fullpage.min.js"></script>
 <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#ffffff','#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-        anchors: ['landingintro','firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+        sectionsColor: ['aqua','#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['landing','firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+        scrollingSpeed: 1000,
         menu: '#menu',
         lazyLoad: true
     });
