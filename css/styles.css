@@ -49,7 +49,7 @@ abbr,acronym { border: 0;
 body{
 	font-family: arial,helvetica;
 	color: #333;
-	color: white;
+	color: whitesmoke;
 }
 .wrap{
 	margin-left: auto;
@@ -59,6 +59,7 @@ body{
 }
 h1{
 	font-size: 6em;
+	color: white
 }
 h2{
 	font-size: 4em;
@@ -151,29 +152,35 @@ p{
 	transform: translateY(200px);
 	
 }
-#section4{
+#section3{
 	background: rgba(255, 175, 1, 1);
 	background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Background1_draft2.jpg);
 	opacity: 1;
 }
-
-#section4 h1, #section4 p{
+#section3 h1, #section3 h4{
 	position:relative;
-	color:rgb(102, 65, 48);
-	text-shadow: 0 0 10px black;
-	transform: translateY(200px);
+	color:white;
 }
-
+#section3 .col-lg-9{
+	background:gray;
+	border-top-left-radius:5px;
+	transform: translateY(60px)
+}
+	
 #section1 .col-lg-3{
-	background-color:teal;
+	background-color:lightgray;
 	margin:10px;
 	padding: 15px;
 	border-radius: 3px;
 }
 
+#section1 h1{
+	color:white
+}
+
 #section1 h4, #section1 h6{
-	color:white;
+	color:black;
 }
 

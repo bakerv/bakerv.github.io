@@ -16,17 +16,14 @@
 <body>
     <a id="logo" href ="index.html#landing" alt="homepage">Victor Baker</a>
     <ul id="menu">
-        <li data-menuanchor="firstPage" class="active">
-            <a href="#firstPage">About</a>
+        <li data-menuanchor="firstPage">
+            <a href="#firstPage">Skills</a>
         </li>
         <li data-menuanchor="secondPage">
-            <a href="#secondPage">Skills</a>
+            <a href="#secondPage">Projects</a>
         </li>
         <li data-menuanchor="3rdPage">
-            <a href="#3rdPage">Projects</a>
-        </li>
-        <li data-menuanchor="4thPage">
-            <a href="#4thPage">Contact</a>
+            <a href="#3rdPage">About</a>
         </li>
     </ul>
 
@@ -130,15 +127,16 @@
     
         </div>
         <div class="section" id="section3">
-            <h1>About Me</h1>
-            <br>
-            <p>I started programming when I was 15, learning C# and experimenting with HTML/CSS in web design. In high school, I fell in love with the power and beauty of quantifying the world around me. This led me to get a B.S. in Physics, and pick up Java, MATLAB, and Mathematica experience along the way.</p>
-            <br>
-            <p>When I am not coding or extolling the virtues of mathematics, I enjoy reading Sci-Fi/Fantasy novels, hiking through local parks, and indulging in excessive amounts of chocolate ice cream.</p>
-        </div>
-        <div class="section" id="section4">
-            <div class="intro">
-                <h1>Contact Me</h1>
+            <div class="container-fluid">
+                <div class = "row justify-content-center">
+                <div class="col-lg-9">
+                <h1>About Me</h1>
+                <br>
+                <h4>I started programming when I was 15, learning C# and experimenting with HTML/CSS in web design. In high school, I fell in love with the power and beauty of quantifying the world around me. This led me to get a B.S. in Physics, and pick up Java, MATLAB, and Mathematica experience along the way.</h4>
+                <br>
+                <h4>When I am not coding or extolling the virtues of mathematics, I enjoy reading Sci-Fi/Fantasy novels, hiking through local parks, and indulging in excessive amounts of chocolate ice cream.</h4>
+                </div>
+            </div>
             </div>
         </div>
     </div>
@@ -154,8 +152,8 @@
 <script type="text/javascript" src="scripts/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['aqua','#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-        anchors: ['landing','firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+        sectionsColor: ['aqua','skyblue', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+        anchors: ['landing','firstPage', 'secondPage', '3rdPage', '4thPage'],
         scrollingSpeed: 1000,
         menu: '#menu',
         lazyLoad: true
