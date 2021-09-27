@@ -68,7 +68,7 @@ h3{
 	font-size: 3em;
 }
 h4{
-	font-size: 2em;
+	font-size: 1.8em;
 }
 h5{
 	font-size: 1.5em;
@@ -170,9 +170,8 @@ p{
 }
 	
 #section1 .col-lg-3{
-	background-color:lightgray;
-	margin:10px;
-	padding: 15px;
+	background-color:transparent;
+	padding: 10px;
 	border-radius: 3px;
 }
 
@@ -183,4 +182,43 @@ p{
 #section1 h4, #section1 h6{
 	color:black;
 }
-
+.flip-card{
+	background-color: transparent;
+	width: 100%;
+	height: 200px;
+	border-radius: 3px;
+	perspective: 1000px;
+	
+}
+.flip-card-contents{
+	position: relative;
+	width: 100%;
+	height:100%;
+	text-align: center;
+	transition: transform 0.95s;
+	transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-contents{
+	transform: rotateY(180deg);
+}
+.card-front, .card-back{
+	position: absolute;
+	width:100%;
+	height:100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	padding: 15px;
+	border-radius: 3px;
+	
+}
+.card-front{
+	background-color:lightgray;
+	color:white;
+	box-shadow: 0px 0px 10px black;
+	
+}
+.card-back{
+	background-color: lightgray;
+	color:white;
+	transform: rotateY(180deg);
+}
