@@ -79,11 +79,6 @@ h6{
 p{
 	font-size: 1em;
 }
-.intro p{
-	width: 50%;
-	margin: 0 auto;
-	font-size: 1.5em;
-}
 .section{
 	text-align:center;
 }
@@ -153,10 +148,9 @@ p{
 	
 }
 #section3{
-	background: rgba(255, 175, 1, 1);
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url(../images/Background1_draft2.jpg);
+	background-image: url(../images/20210927_143532.jpg);
 	opacity: 1;
 }
 #section3 h1, #section3 h4{
@@ -164,11 +158,15 @@ p{
 	color:white;
 }
 #section3 .col-lg-9{
-	background:gray;
 	border-top-left-radius:5px;
 	transform: translateY(60px)
 }
-	
+#section3 h1, #section3 h4{
+	position:relative;
+	color:white;
+	text-shadow: 0px 5px 10px black;
+	transform: translateY(40px);
+}	
 #section1 .col-lg-3{
 	background-color:transparent;
 	padding: 10px;
@@ -221,4 +219,26 @@ p{
 	background-color: lightgray;
 	color:white;
 	transform: rotateY(180deg);
+}
+#section2 #slide1 .container-md{
+	background-color:lightgray;
+}
+#section2 #slide1 #project-image{
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	background-image: url(../images/fer-webcam-sample.png);
+	height:400px;
+}
+#section2 #slide2 #project-image{
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	background-image: url(../images/citibike-tableau-sample.png);
+	height:400px;
+}
+
+#section2 h1{
+	padding: 2%
+
 }
