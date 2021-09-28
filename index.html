@@ -25,6 +25,19 @@
         <li data-menuanchor="3rdPage">
             <a href="#3rdPage">About</a>
         </li>
+        <li data-menuanchor="resume">
+            <a href="#3rdPage">Resume <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M30 18v-2h-6v10h2v-4h3v-2h-3v-2h4z" fill="currentColor"/><path d="M19 26h-4V16h4a3.003 3.003 0 0 1 3 3v4a3.003 3.003 0 0 1-3 3zm-2-2h2a1.001 1.001 0 0 0 1-1v-4a1.001 1.001 0 0 0-1-1h-2z" fill="currentColor"/><path d="M11 16H6v10h2v-3h3a2.003 2.003 0 0 0 2-2v-3a2.002 2.002 0 0 0-2-2zm-3 5v-3h3l.001 3z" fill="currentColor"/><path d="M22 14v-4a.91.91 0 0 0-.3-.7l-7-7A.909.909 0 0 0 14 2H4a2.006 2.006 0 0 0-2 2v24a2 2 0 0 0 2 2h16v-2H4V4h8v6a2.006 2.006 0 0 0 2 2h6v2zm-8-4V4.4l5.6 5.6z" fill="currentColor"/></svg></a>
+        </li>
+        <li data-menuanchor="github">
+            <a href="https://github.com/bakerv">GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" fill="currentColor"/></g></svg>
+            </a>
+        </li>
+        <li data-menuanchor="LinkedIn">
+            <a href="https://www.linkedin.com/in/baker-v/"> LinkedIn
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388zm-5.5 10.403h3.208V9.25H4.208v10.54zM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0z" fill="currentColor"/></g></svg>
+            </a>
+        </li>
     </ul>
 
     <div id="fullpage">
@@ -151,9 +164,7 @@
                         <div class="col-6">
                             <p>Facial recognition is an increasingly important field in today's age. Use cases range from law enforcement and digital security, to advertising and location tracking. This project leverages the power of existing APIs to implement an effective application for face detection and emotion recognition.</p>
                             <p>The code relies on two different machine learning algorithms. The Haar Cascade is used to isolate the user's face, which is facilitated by openCV. The emotion prediction is made using an implementation of the VGGNet convolutional neural network (CNN), which is facilitated by Tensorflow Lite. Python aiohttp is used to run the backend server, supported by aiortc and asyncio to handle the webRTC stream, and the final app is hosted on heroku.</p>
-                            <h6>Tools Used:
-                            
-                                Python, Javascript, Tensorflow, openCV, webRTC, aiohttp, aiortc, and others</h6>
+                            <h6>Tools Used: Python, Javascript, Tensorflow, openCV, webRTC, aiohttp, aiortc, and others</h6>
                         </div>
                     </div>
                         <div class="col-12 project-preview">
@@ -184,7 +195,28 @@
                 </div> 
             </div>
             <div class="slide" id="slide3">
-                <h1>NASA Kepler</h1>
+                <div class="container-fluid">
+                    <div class="col-12">
+                        <h1>ML with Kepler Exoplanet Data</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4" id='project-image'>
+                        </div>
+                        <div class="col-6">
+                            <p>The data used in this analysis comes from observations by NASA's Kepler Space Telescope, published by the NASA Exoplanet Science Institute.
+
+                                The telescope was used to identify celstial objects that are potential candidates for earth sized planets orbiting other stars. These CANDIDATES were then later classified as CONFIRMED PLANETS or FALSE POSITIVES.
+                                
+                                The goal of this analysis is to create a machine learning algorithm that will ingest the observation data, and correctly predict wether a candidate will be confirmed as an earth sized planet.</p>
+                            <h6>Tools Used</h6>
+                            <p>Pandas, scikit-learn, Keras, and TensorFlow libraries for python are used</p>
+                        </div>
+                    </div>
+                        <div class="col-12 project-preview">
+                        </div>
+                        <div class="col-12">
+                        </div>
+                </div>
             </div>
             <div class="slide" id="slide4">
                 <div class="intro">
@@ -194,30 +226,67 @@
                 </div>
             </div>
             <div class="slide" id="slide5">
-                <h1>Well Analysis</h1>
+                <div class="container-fluid">
+                    <div class="col-12">
+                        <h1>Shark Tracker</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4" id='project-image'>
+                        </div>
+                        <div class="col-6">
+                            <p>Based on previous articles we had read, we decided to test the hypothesis that sharks display site fidelity at shipwreck locations. In particular, we were looking for a visual correlation when looking at sharks and shipwrecks on the same map.</p>
+                            <p>The shark data comes from Western Australia's Shark Hazard API. This database is comprised of tagged shark detections, and public reports of shark sightings. Comprising over 17,000 reports, and updated daily, this database powers the Government of Western Australia's SharkSmart Shark Activity tracker.
+
+                                The shipwreck data comes from Shipwrecks (WAM-002). This database, provided by the Western Australia Museum, contains roughly 1650 shipwrecks in the same geographic area as our shark data.</p>
+                            <h6>Tools Used: python flask-powered API, pandas, sqlalchemy, HTML/CSS, JavaScript, SQLite, textillate.js, bootstrap, d3.js, and leaflet.js</h6>
+                        </div>
+                    </div>
+                        <div class="col-12 project-preview">
+                        </div>
+                        <div class="col-12">
+                        </div>
+                </div>   
             </div>
-            <div class="slide" id="slide6">
-                <h1>Horticulture Design Flash Cards</h1>
-            </div>
-    
         </div>
         <div class="section" id="section3">
-            <div class="container-fluid">
-                <div class = "row justify-content-center">
-                <div class="col-lg-9">
-                <h1>About Me</h1>
-                <br>
-                <h4>I started programming when I was 14, learning C# and experimenting with HTML/CSS in web design. In high school, I fell in love with the power and beauty of quantifying the world around me. This led me to get a B.S. in Physics, and pick up Java, MATLAB, and Mathematica experience along the way.</h4>
-                <br>
-                <h4>When I am not coding or extolling the virtues of mathematics, I enjoy reading Sci-Fi/Fantasy novels, hiking through local parks, and indulging in excessive amounts of chocolate ice cream.</h4>
+            <div class="container-fluid justify-content-center">
+                <div class="row justify-content-center" id='about-footer'>
+                    <div class="col-lg-12" > 
+                        <ul id="contact">
+                            <li>
+                                <a href="https://github.com/bakerv">GitHub 
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" fill="currentColor"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/baker-v/">LinkedIn 
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388zm-5.5 10.403h3.208V9.25H4.208v10.54zM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0z" fill="currentColor"/></g></svg>
+                                </a>
+                            </li>
+                            <li>
+                                
+                                <a href="https://google.com">Email 
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M16.484 11.976l6.151-5.344v10.627zm-7.926.905l2.16 1.875c.339.288.781.462 1.264.462h.017h-.001h.014c.484 0 .926-.175 1.269-.465l-.003.002l2.16-1.875l6.566 5.639H1.995zM1.986 5.365h20.03l-9.621 8.356a.612.612 0 0 1-.38.132h-.014h.001h-.014a.61.61 0 0 1-.381-.133l.001.001zm-.621 1.266l6.15 5.344l-6.15 5.28zm21.6-2.441c-.24-.12-.522-.19-.821-.19H1.859a1.87 1.87 0 0 0-.835.197l.011-.005A1.856 1.856 0 0 0 0 5.855V18.027a1.86 1.86 0 0 0 1.858 1.858h20.283a1.86 1.86 0 0 0 1.858-1.858V5.859v-.004c0-.727-.419-1.357-1.029-1.66l-.011-.005z" fill="currentColor"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+                <div class = "row justify-content-center">
+                    <div class="col-lg-9">
+                        <h1>About Me</h1>
+                        <br>
+                        <h4>I started programming when I was 14, learning C# and experimenting with HTML/CSS in web design. In high school, I fell in love with the power and beauty of quantifying the world around me. This led me to get a B.S. in Physics, and pick up Java, MATLAB, and Mathematica experience along the way.</h4>
+                        <br>
+                        <h4>When I am not coding or extolling the virtues of mathematics, I enjoy reading Sci-Fi/Fantasy novels, hiking through local parks, and indulging in excessive amounts of chocolate ice cream.</h4>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </div>
 </div>
 <h1>Victor Baker</h1>
-    <h1>San Antonio, TX</h1>
     <h3><a href = "http://github.com/bakerv">Github</a></h3>
     <h3><a href = "http://github.com/bakerv">LinkedIn</a></h3>
     <ul>Projects</ul>
