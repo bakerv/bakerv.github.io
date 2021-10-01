@@ -68,7 +68,7 @@ h1{
 	color: white
 }
 h2{
-	font-size: 4em;
+	font-size: 4.8em;
 }
 h3{
 	font-size: 3em;
@@ -84,7 +84,7 @@ h6{
 	font-weight: bold;
 }
 p{
-	font-size: 1.2em;
+	font-size: 1.9em;
 }
 .section{
 	text-align:center;
@@ -165,7 +165,7 @@ p{
 #section3 .col-lg-9{
 	border-top-left-radius:5px;
 }
-#section3 h1, #section3 h4, #section3 a{
+#section3 h2, #section3 h5, #section3 a{
 	position:relative;
 	color:white;
 	text-shadow: 0px 5px 10px black;
@@ -178,6 +178,9 @@ p{
 #section1 h1{
 	color:white;
 }
+#section1 li{
+	font-size: 1.2em
+}
 #section1 h4, #section1 h6{
 	color:white;
 	padding:10px;
@@ -186,7 +189,6 @@ p{
 	background-color: transparent;
 	width: 100%;
 	height: 200px;
-	border-radius: 3px;
 	perspective: 1000px;
 }
 .flip-card-contents{
@@ -207,10 +209,10 @@ p{
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	padding: 15px;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 .card-front{
-	background-color:darkgray;
+	background-color:transparent;
 	color:white;
 	box-shadow: 0px 0px 10px black;
 }
@@ -219,8 +221,15 @@ p{
 	color:white;
 	transform: rotateY(180deg);
 }
-#section2 h1, #section2 p{
-	color:black;
+#section2 h2{
+	color:white;
+	padding-bottom:3%;
+}
+#section2 h6{
+	color:white;
+	padding-top:3%;
+	padding-bottom:3%;
+	text-align: left;
 }
 #section2{
 	background-color:rgb(33, 28, 100);
@@ -229,9 +238,11 @@ p{
 	padding: 1%
 }
 #section2 .slide p{
+	color:white;
 	text-align: left;
 	padding-bottom: 10px;
-	font-size:1.2em;
+	padding-top: 10px;
+	font-size:1.4em;
 }
 #section2 #slide1 #project-image{
 	background-size: cover;
@@ -270,7 +281,7 @@ p{
 #contact svg{
 	color:white;
 }
-#contact a, contact a:after{
+#contact a, #contact a:after{
 	color:white;
 	margin: 1em
 }
@@ -278,21 +289,26 @@ p{
 	margin-top:6em;
 	margin-bottom:6em;
 }
-.btn-flipcard{
+.btn-flipcard, .btn-flipcard:hover{
 	margin-top:3%;
-	background-color:orange;
+	color:white;
+	background-color:#549166;
+	border-radius:5px;
 }
-.btn-project{
+.btn-project, .btn-project:hover{
 	margin:2%;
-	background-color:orange;
-	width:30%;
+	color:white;
+	background-color:#787778;
+	width:40%;
+	font-size:1.5em;
+	border-radius:5px;
 }
 
-.fp-viewing-landing #fp-nav ul li a span{
+ #fp-nav ul li a span{
 	background:white;
-	box-shadow: 0px 0px 10px black;
 }
-#fp-nav ul li a span{
-	background: black;
+.fp-slidesNav ul li a span{
+	background:white;
 }
+
 
