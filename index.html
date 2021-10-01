@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Baker</title>
+    <title>Victor Baker | Portfolio</title>
 
     
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
@@ -43,12 +43,12 @@
     <div id="fullpage">
         <div class="section active" id="section0">
             <div class='bg-image'></div>
-            <h1>Victor Baker</h1>
+            <h2>Victor Baker</h2>
             <br>
-            <h4>I am passionate about learning, problem solving, and process imrovement. My preferred languages are English, Mathematics, and Coding.(Work in Progress)</h4>
+            <h5>I am passionate about learning, problem solving, and process imrovement. My preferred languages are English, Mathematics, and Coding.(Work in Progress)</h5>
         </div>
         <div class="section" id="section1">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
                 <div class="container-fluid">
                   <div class="row justify-content-center">
                     <div class="col-lg-3">
@@ -242,20 +242,16 @@
             <div class="slide" id="slide3">
                 <div class="container-fluid">
                     <div class="col-12">
-                        <h2>ML with Kepler Exoplanet Data</h2>
+                        <h2>Kepler Planet Classification</h2>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-4" id='project-image'>
                         </div>
                         <div class="col-6">
                             <div class="row">
-                                <p>The data used in this analysis comes from observations by NASA's Kepler Space Telescope, published by the NASA Exoplanet Science Institute.
-
-                                    The telescope was used to identify celstial objects that are potential candidates for earth sized planets orbiting other stars. These CANDIDATES were then later classified as CONFIRMED PLANETS or FALSE POSITIVES.
-                                    
-                                    The goal of this analysis is to create a machine learning algorithm that will ingest the observation data, and correctly predict wether a candidate will be confirmed as an earth sized planet.</p>
-                                <h6>Tools Used</h6>
-                                <p>Pandas, scikit-learn, Keras, and TensorFlow libraries for python are used</p>
+                                <p>This project tests the efficacy of machine learning algorithms at predicting the classification of planetary candidates. Ease of implementation and final accuracy are compared for Random Forest and simple deep learning models.</p>
+                                <p> The Keras Tuner API is used to execute Hyperband hyperparameter tuning on the neural networks.</p>
+                                <h6>Tools Used: Python, pandas, scikit-learn, Keras, and TensorFlow</h6>
                             </div>
                             <div class="row-cols-md-6">
                                 <a href ='https://github.com/bakerv/ML-kepler-exoplanets#readme' class="btn btn-project">See the analysis</a>
@@ -280,11 +276,9 @@
                             </div>
                             <div class="col-6">
                                 <div class="row">
-                                    <p>The data used in this analysis comes from observations by NASA's Kepler Space Telescope, published by the NASA Exoplanet Science Institute.
-                                        The telescope was used to identify celstial objects that are potential candidates for earth sized planets orbiting other stars. These CANDIDATES were then later classified as CONFIRMED PLANETS or FALSE POSITIVES.
-                                        The goal of this analysis is to create a machine learning algorithm that will ingest the observation data, and correctly predict wether a candidate will be confirmed as an earth sized planet.</p>
-                                    <h6>Tools Used</h6>
-                                    <p>Pandas, scikit-learn, Keras, and TensorFlow libraries for python are used</p>
+                                    <p>This interactive plotly dashboard visualizes bacterial oligarch species inhabiting belly buttons. The user is able to view study data for individual participants</p>
+                                    <p>Javascript and D3 are used to parse through the JSON file, bind data, and dynamically write html to the page.</p>
+                                    <h6>Tools Used: Javascript, d3,js, and plotly.js</p>
                                 </div>
                                 <div class="row-cols-md-6">
                                     <a href ='https://bakerv.github.io/plotly-dashboard/' class="btn btn-project">Explore the app</a>
@@ -302,17 +296,16 @@
             <div class="slide" id="slide5">
                 <div class="container-fluid">
                     <div class="col-12">
-                        <h2>Shark Tracker</h2>
+                        <h2>Shark Sighting API</h2>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-4" id='project-image'>
                         </div>
                         <div class="col-6">
                             <div class="row">
-                                <p>Based on previous articles we had read, we decided to test the hypothesis that sharks display site fidelity at shipwreck locations. In particular, we were looking for a visual correlation when looking at sharks and shipwrecks on the same map.</p>
-                                <p>The shark data comes from Western Australia's Shark Hazard API. This database is comprised of tagged shark detections, and public reports of shark sightings. Comprising over 17,000 reports, and updated daily, this database powers the Government of Western Australia's SharkSmart Shark Activity tracker.
-                                    The shipwreck data comes from Shipwrecks (WAM-002). This database, provided by the Western Australia Museum, contains roughly 1650 shipwrecks in the same geographic area as our shark data.</p>
-                                <h6>Tools Used: python flask-powered API, pandas, sqlalchemy, HTML/CSS, JavaScript, SQLite, textillate.js, bootstrap, d3.js, and leaflet.js</h6>
+                                <p>This app explores site preferences for sharks using geoJSON data and interactive maps. The goal was to test the hypothesis that tiger sharks display site fidelity for shipwrecks.</p>
+                                <p>The raw data from the API is cleaned, and then added to a leaflet map as a custom icon for each shark species or ship.</p>
+                                <h6>Tools Used: Python, JavaScript, SQL, HTML/CSS, pandas, SQLalchemy, textillate.js, bootstrap, d3.js, and leaflet.js</h6>
                             </div>
                             <div class="row-cols-md-6">
                                 <a href ='https://sharks-western-australia.herokuapp.com/' class="btn btn-project">Explore the app</a>
@@ -369,7 +362,7 @@
 <script type="text/javascript" src="scripts/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['darkgray','#569ba6', '#549166', '#7BAABE', 'whitesmoke'],
+        sectionsColor: ['darkgray','#569ba6', 'darkgray', '#7BAABE', 'whitesmoke'],
         anchors: ['landing','firstPage', 'secondPage', '3rdPage', '4thPage'],
         scrollingSpeed: 1000,
         navigation:true,
