@@ -157,7 +157,7 @@ p{
 
 #section3{
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/20210927_143532.jpg);
 	opacity: 1;
 }
@@ -254,14 +254,14 @@ p{
 #section2 #slide1 #project-image{
 	background-size: cover;
 	background-position:center;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/fer-webcam-sample.png);
 	height:400px;
 }
 #section2 #slide2 #project-image{
 	background-size: cover;
 	background-position:center;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/citibike-tableau-sample.png);
 	height:400px;
 }
@@ -269,21 +269,21 @@ p{
 #section2 #slide3 #project-image{
 	background-size: cover;
 	background-position:center;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/ml-kepler-training-sample.png);
 	height:400px;
 }
 #section2 #slide4 #project-image{
 	background-size: cover;
 	background-position:center;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/plotly-dashboard-sample.png);
 	height:400px;
 }
 #section2 #slide5 #project-image{
 	background-size: cover;
 	background-position:center;
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-image: url(../images/shark-api-sample.png);
 	height:400px;
 }
