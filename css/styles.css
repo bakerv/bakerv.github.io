@@ -42,13 +42,12 @@ q:before,q:after {
 }
 abbr,acronym { border: 0;
 }
-.fp-controlArrow.fp-prev {
-	left: 50px;
-}
 .fp-controlArrow.fp-next{
 	right: 50px;
 }
-
+body.fp-responsive .fp-controlArrow.fp-next{
+	right: 20px;
+}
 
 /* Custom CSS
  * --------------------------------------- */
@@ -172,8 +171,14 @@ p{
 	position:relative;
 	color:white;
 	text-shadow: 0px 5px 10px black;
-}	
-#section1 .col-lg-3{
+}
+#section1{
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: linear-gradient(to bottom right,#569ba6,#56a679);
+	opacity: 1;	
+}
+#section1 .col-xl-3{
 	background-color:transparent;
 	padding: 10px;
 	border-radius: 3px;
@@ -191,7 +196,7 @@ p{
 .flip-card{
 	background-color: transparent;
 	width: 100%;
-	height: 200px;
+	height: 225px;
 	perspective: 1000px;
 }
 .flip-card-contents{
@@ -222,7 +227,7 @@ p{
 	border:white 2px solid;
 }
 .card-back{
-	background-color: darkgray;
+	background-image:linear-gradient(to top left, #808080,#8599ad);
 	color:white;
 	border:white 2px solid;
 	padding-right: 4px;
@@ -239,7 +244,10 @@ p{
 	text-align: left;
 }
 #section2{
-	background-color:rgb(33, 28, 100);
+	background-size: cover;
+	background-attachment: fixed;
+	background-image:linear-gradient(to top left, #808080,#8599ad);
+	opacity: 1;	
 }
 #section2 h1{
 	padding: 1%
@@ -256,7 +264,7 @@ p{
 	background-position:center;
 	background-attachment: relative;
 	background-image: url(../images/fer-webcam-sample.png);
-	height:400px;
+	height: 400px;
 }
 #section2 #slide2 #project-image{
 	background-size: cover;
@@ -325,4 +333,19 @@ p{
 	background:white;
 }
 
+body.fp-responsive .additional-content{
+	display: none;
+}
 
+body.fp-responsive #section2 h2{
+	font-size: 2em;
+}
+
+ body.fp-responsive .btn-project, .btn-project:hover{
+	margin:2%;
+	color:white;
+	background-color:#cf6d0c;
+	width:100%;
+	font-size:1.5em;
+	border-radius:5px;
+}
