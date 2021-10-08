@@ -138,6 +138,13 @@ p{
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased
 }
+#menu-dropdown{
+	position:relative;
+	background-color:white;
+	top:0px;
+	left:0px;
+
+}
 #section0{
 	background: rgba(255, 175, 1, 1);
 	background-size: cover;
@@ -354,7 +361,7 @@ body.fp-responsive #section2 p, body.fp-responsive h6{
 	font-size:1.2em;
 	border-radius:5px;
 }
-body.fp-responsive #menu{
+/* body.fp-responsive #menu{
 	background-color:whitesmoke;
 	width:100%;
 	top:0px;
@@ -364,4 +371,4 @@ body.fp-responsive #menu a{
 }
 body.fp-responsive #menu-line, body.fp-responsive #menu li.active a:after{
 	background: black;
-}
+} */
