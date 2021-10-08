@@ -142,8 +142,7 @@ p{
 	background: rgba(255, 175, 1, 1);
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url(../images/20210924_104544.jpg);
-	opacity: 1;
+	background-image: url(../images/landing_photo.jpg);
 }
 #section0 h2, #section0 h5{
 	position:relative;
@@ -157,7 +156,7 @@ p{
 #section3{
 	background-size: cover;
 	background-attachment: relative;
-	background-image: url(../images/20210927_143532.jpg);
+	background-image: url(../images/about_photo.jpg);
 	opacity: 1;
 }
 #section3 h1, #section3 h4{
@@ -338,14 +337,27 @@ body.fp-responsive .additional-content{
 }
 
 body.fp-responsive #section2 h2{
-	font-size: 2em;
+	font-size: 1.5em;
 }
-
- body.fp-responsive .btn-project, .btn-project:hover{
+body.fp-responsive #section2 p, body.fp-responsive h6{
+	font-size: 1.2em;
+}
+ body.fp-responsive .btn-project, body.fp-responsive .btn-project:hover{
 	margin:2%;
 	color:white;
 	background-color:#cf6d0c;
 	width:100%;
-	font-size:1.5em;
+	font-size:1.2em;
 	border-radius:5px;
+}
+body.fp-responsive #menu{
+	background-color:whitesmoke;
+	width:100%;
+	top:0px;
+}
+body.fp-responsive #menu a{
+	color:black;
+}
+body.fp-responsive #menu-line, body.fp-responsive #menu li.active a:after{
+	background: black;
 }
