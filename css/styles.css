@@ -46,7 +46,10 @@ abbr,acronym { border: 0;
 	right: 50px;
 }
 body.fp-responsive .fp-controlArrow.fp-next{
-	right: 20px;
+	right: 5px;
+}
+body.fp-responsive .fp-controlArrow.fp-prev{
+	left: 5px;
 }
 
 /* Custom CSS
@@ -151,7 +154,7 @@ p{
 	background-attachment: fixed;
 	background-image: url(../images/landing_photo.jpg);
 }
-#section0 h2, #section0 h5{
+#section0 h2, #section0 h5, #section0 img{
 	position:relative;
 	color:white;
 	text-shadow: 2px 2px 10px black;
@@ -159,25 +162,38 @@ p{
 	margin-right:50px;
 	transform: translateY(200px);
 }
-
-#section3{
+#section0 img{
+	border-radius:50%;
+	border:3px solid white;
+}
+#section0 h5{
+	text-align: left;	
+}
+body.fp-responsive #section0{
+	background: rgba(255, 175, 1, 1);
 	background-size: cover;
-	background-attachment: relative;
-	background-image: url(../images/about_photo.jpg);
-	opacity: 1;
+	background-attachment: fixed;
+	background-image: url(../images/landing_photo.jpg);
 }
-#section3 h1, #section3 h4{
+body.fp-responsive #section0 h2{
 	position:relative;
 	color:white;
+	text-shadow: 2px 2px 10px black;
+	margin-left:50px;
+	margin-right:50px;
+	transform: translateY(200px);
+	font-size:3em;
 }
-#section3 .col-lg-9{
-	border-top-left-radius:5px;
-}
-#section3 h2, #section3 h5, #section3 a{
+body.fp-responsive #section0 h5{
 	position:relative;
 	color:white;
-	text-shadow: 0px 5px 10px black;
+	text-shadow: 2px 2px 10px black;
+	margin-left:50px;
+	margin-right:50px;
+	transform: translateY(200px);
+	font-size:1.1em;
 }
+
 #section1{
 	background-size: cover;
 	background-attachment: relative;
@@ -305,10 +321,45 @@ p{
 	background-image: url(../images/shark-api-sample.png);
 	height:400px;
 }
+#section3{
+	background-size: cover;
+	background-attachment: relative;
+	background-image: url(../images/about_photo.jpg);
+	opacity: 1;
+}
+#section3 h1, #section3 h4{
+	position:relative;
+	color:white;
+}
+#section3 .col-lg-9{
+	border-top-left-radius:5px;
+}
+#section3 h2, #section3 h5, #section3 a{
+	position:relative;
+	color:white;
+	text-shadow: 0px 5px 10px black;
+}
+#section3 h5{
+	text-align: left;
+	padding-bottom: 1%;
+}
+body.fp-responsive #section3 h2{
+	font-size:3em;
+}
+body.fp-responsive #section3 h5{
+	font-size:1.1em;
+}
 #contact li{
 	display:inline-block;
 	position:relative;
 	font-size:3em;
+}
+body.fp-responsive #contact li{
+	font-size:1.2em;
+}
+body.fp-responsive #contact a{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
 #contact svg{
 	color:white;
@@ -360,4 +411,12 @@ body.fp-responsive #section2 p, body.fp-responsive h6{
 	width:100%;
 	font-size:1.2em;
 	border-radius:5px;
+}
+
+body.fp-responsive #menu ul{
+	background-color:rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+}
+body.fp-responsive #menu a{
+	color:black;
 }
